@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="ru.startandroid.develop.financemanagment.fragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/accountsFragment"
+        android:name="ru.startandroid.develop.financemanagment.fragments.AccountsFragment"
+        android:label="Accounts"
+        tools:layout="@layout/fragment_accounts" />
+    <fragment
+        android:id="@+id/navigation_transfer"
+        android:name="ru.startandroid.develop.financemanagment.fragments.TransferFragment"
+        android:label="Transfer"
+        tools:layout="@layout/fragment_transfer" />
+    <fragment
+        android:id="@+id/navigation_transaction"
+        android:name="ru.startandroid.develop.financemanagment.fragments.TransactionFragment"
+        android:label="Transaction"
+        tools:layout="@layout/fragment_transaction" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="ru.startandroid.develop.financemanagment.fragments.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
